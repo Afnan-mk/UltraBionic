@@ -1,0 +1,255 @@
+
+
+@media (min-width: 1025px) and (max-width: 1684px) {
+
+    .team-slider1 .carousel-item>div>div{height: 850px;}
+    .services-parent{ width: 90%;}
+    .services-options{ width: 50%; left: 25%;} 
+    .disney-cover>div{ width: 75%;}  
+    .nav-bar__menu>ul>li{ padding: 32px 0px 32px 30px;}             
+
+    .feature1>div>div, .feature2>div>div, .feature3>div>div { width: 90%;}  
+    
+    .normal-covers a{margin-left: 40px;}
+    .normal-covers p{padding: 0 15px;}
+}
+
+
+
+
+
+@media (max-width: 1215px){
+    .nav-bar__menu>ul>li {padding: 32px 0px 32px 20px;}
+}
+@media (max-width: 1125px){
+    .nav-bar {padding: 0 30px}
+    .nav-bar__menu>ul>li {padding: 32px 0px 32px 14px;}
+}
+@media (max-width: 769px){
+    .sidebar{max-height: 100vh; overflow: auto;}
+}
+
+
+
+
+@media (max-width: 990px){
+    .a{order: 10;}
+    .b{order: 9;}
+    .c{order: 8;}
+    .d{order: 7;}
+    .e{order: 6;}
+    .f{order: 5;}
+
+    
+
+}
+
+@media (min-width:991px) and (max-width:1439px){
+    .normal-covers>div>div{width: 100% ;}
+    .shop-parent{width: 85%;}
+    .normal-covers{ width: 95%;}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .cover-layer p{font-size: 50px;}
+    .cover-layer span{font-size: 26px ;}
+    .go-button{font-size: 26px;}
+    .nav-bar__logo a{font-weight: 600;}
+    .nav-bar{ background-color: rgba(6, 24, 34, 0.9);}
+    .nav-bar__logo a{ color: rgb(149, 161, 167); }
+    .nav-bar__menu{display: none;}
+    .sidebar-menu{ display: block; display: flex; justify-content: flex-end; align-items: center; }
+
+    .about-us__tittle, .services>p, .bionic-arm__tittle, .super-bionic__tittle{ font-size: 30px; }        
+    .about-us__description, .service-description p, .bionic-arm__description, .super-bionic__description{ font-size: 16px; } 
+    .the-team{font-size: 24px; margin-left: 30px;}
+
+    .team-slider1{display: none;}
+    .team-slider2{display: block;}
+
+
+    .services-parent{width: 90%;}
+    .services-options{width: 60%; left: 20%;}
+    .service-tittles img{ height: 380px; }    
+
+    .disney-cover>div{ width: 80%;}
+
+   
+
+ 
+    .feature1>div>div, .feature2>div>div, .feature3>div>div { width: 95%;}
+    .features h2{font-size: 30px ;} 
+    .features p{font-size: 16px ;} 
+    .get-arm a{font-size: 16px;}
+
+
+    .normal-covers a{margin-left: 40px;}
+    .normal-covers p{padding: 0 15px;}
+    .normal-covers{ width: 60%;}
+    .shop-header{padding: 10px 30px;}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) { 
+    
+    .cover-layer p{font-size: 50px;}
+    .cover-layer span{font-size: 26px ;}
+    .go-button{font-size: 26px;}
+    .nav-bar{background-color: rgba(6, 24, 34, 0.9); padding: 0 30px;}
+    .nav-bar__logo img{width:60px; height:60px}
+    .nav-bar__logo a{font-weight: 600; color: rgb(149, 161, 167); font-size: 20px;}
+    .nav-bar__menu{display: none;}
+    .sidebar-menu{ display: block; display: flex; justify-content: flex-end; align-items: center; }
+    .sidebar-menu div a{font-size: 20px;}
+   
+
+
+    .services-parent{width: 90%;}
+    .services-options{ width: 60%; left: 20%; }
+    .service-tittles img{ height: 380px; }    
+
+    .disney-cover>div{ width: 80%;}
+    .disney-cover p{padding-top: 1030px; font-size: 16px;}
+    .disney-cover a{font-size: 18px;}
+   
+
+    .about-us{margin-bottom: 0px;}
+    .about-us__description{padding-bottom: 130px;}
+    .about-us__tittle, .services>p, .bionic-arm__tittle, .super-bionic__tittle{ font-size: 30px; }        
+    .about-us__description, .service-description p, .bionic-arm__description{ font-size: 16px; } 
+    .the-team{font-size: 26px; margin-left: 30px; padding-bottom: 800px;}
+    .about-us__button a{display: block;}
+
+   
+
+    .team-slider1{display: none;}
+    .team-slider2{display: block;}
+    .team-slider{bottom: 0;}
+
+    
+
+    .super-bionic a{font-size: 18px; letter-spacing: 1px;}
+    .super-bionic__description{ font-size: 16px; letter-spacing: 2px;}
+
+    .Icons{font-size: 30px;}
+    footer>div>div>p{font-size: 16px;}
+
+
+    .feature1>div>div, .feature2>div>div, .feature3>div>div { width: 95%;}
+    .features h2{font-size: 30px ;} 
+    .features p{font-size: 16px ;} 
+    .get-arm a{font-size: 16px;}
+
+    .normal-covers{ width: 60%;}
+    .shop-header{padding: 10px 30px;}
+    .normal-covers a{margin-left: 40px;}
+    .normal-covers p{padding: 0 15px;}
+
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+    .cover-layer p{font-size: 36px; margin-top: 40px; line-height: 50px;}
+    .cover-layer span{font-size: 22px;}
+    .go-button{font-size: 26px; padding: 0px 25px; margin-top: 50px;}
+    .nav-bar{background-color: rgba(6, 24, 34, 0.9); padding: 0 20px;}
+    .nav-bar__logo img{width:40px; height:40px}
+    .nav-bar__logo a{font-weight: 600; color: rgb(149, 161, 167); font-size: 18px;}
+    .nav-bar__logo span{font-size: 16px;}
+    .sidebar {width: 240px; right: -240px;}
+    .nav-bar__menu{display: none;}
+    .sidebar-menu{ display: block; display: flex; justify-content: flex-end; align-items: center; }
+    .sidebar-menu div a{font-size: 18px;}
+    
+
+
+    .services-parent{width: 90%;}
+    .services-options{ width: 60%; left: 20%; }
+    .service-tittles img{ height: 380px; }    
+
+    .disney-cover>div{width: 80%;}
+    .disney-cover p{padding-top: 1030px; font-size: 16px;}
+    .disney-cover a{font-size: 18px;}
+   
+
+    .about-us{margin-bottom: 0px;}
+    .about-us__description{padding-bottom: 110px;}
+    .about-us__tittle, .services>p, .bionic-arm__tittle, .super-bionic__tittle{ font-size: 30px; }        
+    .about-us__description, .service-description p, .bionic-arm__description{ font-size: 16px; } 
+    .the-team{font-size: 26px; margin-left: 30px; padding-bottom: 800px;}
+    .about-us__button a{font-size: 22px; margin-top: 40px; margin-bottom: 66px;}
+    .up{right: 40px;}
+
+    
+
+    .super-bionic a{font-size: 16px; letter-spacing: 0.5px; padding: 5px 10px;}
+    .super-bionic__description{ font-size: 16px; letter-spacing: 2px;}
+
+    .Icons{font-size: 30px; margin: 100px 20px 50px 0;}
+    footer>div>div>p{font-size: 16px;}
+
+    .feature1>div>div, .feature2>div>div, .feature3>div>div { width: 90%;}
+    .features h2{font-size: 30px ;} 
+    .features p{font-size: 16px ;} 
+    .arm-cover, .cover-layer, .cover img, .arm-cover img{ height: 650px;}
+    .get-arm a{font-size: 16px;}
+
+    
+    .normal-covers{ width: 90%;}
+    .shop-header{padding: 10px 15px;}
+    .shop-header img{width: 40px; height: 40px;}
+    .shop-header a{font-size: 18px;}
+    .normal-covers a{margin-left: 20px; font-size: 12px; font-weight: 700;}
+    .normal-covers p{padding: 0 15px; font-size: 14px;}
+    .shop-icon{font-size: 24px;}
+    .normal-covers__tittle{font-size: 30px;}
+    .disney-covers__tittle{font-size: 30px;}
+    .disney-covers__description{font-size: 16px;}
+
+
+    .contact-box{width: 300px;}
+    .contact-box h2{font-size: 28px;}
+
+}
+
+@media (max-width: 280px) {
+    .nav-bar__logo a, .nav-bar__logo a span, .shop-header a, .shop-header a span {font-size: 0;}
+    .nav-bar__logo a img{width: 46px;  height: 46px;}
+    .services-options { width: 80%; left: 10%;}
+    .super-bionic {height: 680px;}
+    .super-bionic a { font-size: 14px; margin-top: 50px;}
+    .up { right: 30px;}
+
+    .get-arm{height: 800px;}
+    .get-arm a{margin-top: 50px;}
+
+    .shop-parent {width: 95%;}
+    .contact-box { width: 260px;}
+}

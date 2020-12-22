@@ -1,0 +1,1107 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.cover img{
+    width: 100%;
+    height: 940px;
+
+}
+
+.cover-layer{
+    background-color: rgba(5, 19, 27, 0.5);
+    position: absolute;
+    top: 0;
+    height: 940px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-layer p{
+    font-size: 50px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 2.5px;
+}
+
+.cover-layer span{
+    font-size: 30px ;
+    color: #b1b2b3;
+}
+
+.go-button{
+    font-size: 24px;
+    color:rgb(5, 19, 27);
+    letter-spacing: 3.5px;
+    padding: 8px 40px;
+    line-height: 40px;
+    margin-top: 100px;
+    background-color: rgba(197, 210, 216, 1);
+    border-style: none;
+    outline-style: none;
+    transition: 0.5s;
+}
+
+.go-button:hover{
+    background-color:rgba(197, 210, 216, 0.6);
+    color: rgb(5, 19, 27) ;
+}
+.go-button:focus{
+    outline: none;
+}
+
+.nav-bar{
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2; 
+    padding: 0 60px;
+}
+
+.nav-bar__logo img{
+    margin: 10px 0 ;
+}
+
+.nav-bar__logo a{
+    text-decoration: none;
+    color: #092334;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-bar__logo a.default2{
+    color: rgba(149, 161, 167, 1); 
+    font-weight: 600;
+}
+
+.nav-bar__logo span{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-bar__menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar__menu ul{
+    list-style: none;
+    padding-inline-start: unset;
+    margin-block-end: unset;
+}
+
+.nav-bar__menu>ul>li{
+    display: inline-block;
+    padding: 32px 0px 32px 40px;
+}
+
+
+.nav-bar__menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #051722;
+    font-weight: 700;
+}
+
+.nav-bar__menu ul li a.default2{
+    color: white;
+    font-weight: 500;
+}
+
+.nav-bar__menu>ul>li>a:hover{
+    color: white;
+}
+
+.nav-bar__menu>ul>li>a.default3{
+    color: rgba(149, 161, 167, 1); 
+}
+
+.dropdown {position: relative;}
+
+
+.dropdown-options{
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    position: absolute;
+    /* top: 120px; */
+    top: 88px;
+    background-color: transparent;
+    box-shadow: 0.3px 0.3px 1.5px #89a4af;
+    display: none;
+}
+
+.dropdown:hover .down-icon{
+    transform: rotate(180deg);
+}
+
+.dropdown:hover .dropdown-options{display: block;}
+
+.dropdown-options li a{
+    display: block;
+    padding: 15px 20px ;
+}
+
+.dropdown-options>li>a:hover{
+    color: white;
+    font-weight: 500;
+    background-color: rgba(5, 19, 27, 0.7);
+}
+
+.dropdown-options>li>a.default3{
+    background-color: rgba(149, 161, 167, 1);
+}
+
+hr{padding: 0; margin: 0;}
+
+.default{
+    background-color: rgba(6, 24, 34, 0.9); 
+}
+
+
+
+
+.up{
+    padding: 3px 10px;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    position: fixed;
+    right: 80px;
+    bottom: 80px;
+    z-index: 7;
+    display: none;
+    transition: 0.5s;
+    background-color: rgba(6, 24, 34, 1);
+    color: white;
+}
+.up:hover{
+    color: rgba(6, 24, 34, 1);
+    border: 2px solid rgba(6, 24, 34, 1);
+    background-color: transparent;
+}
+
+.up-icon{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.sidebar-menu{
+    display: none;
+}
+
+.sidebar-menu div a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.sidebar-menu div a:hover{
+    color: rgba(149, 161, 167, 1);
+}
+
+.Bar-icon{
+    margin-right: 10px;
+}
+
+.sidebar{
+    height: 100%;
+    width: 340px;
+    background-color: rgba(6, 24, 34, 0.9);
+    position: fixed;
+    right: -340px;
+    top: 0;
+    z-index: 2;
+    transition: 1s;
+}
+
+
+.sidebar__links>ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.sidebar__links>ul>li{
+   padding: 30px 0;
+   text-align: center;
+}
+
+.exit-icon{
+    font-size: 28px;
+    margin: 40px 0 0 30px;
+}
+
+.jQuery-edit{
+    right: 0 !important;
+}
+
+.jQuery-edit2{
+    transform: rotate(180deg);
+}
+
+.dropdown-options2{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+    display: none;
+}
+
+
+.dropdown-options2>li{
+   padding-top: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us{
+    background-color: #c5d2d8;
+    position: relative;
+    margin-bottom: 630px;
+    padding-top: 90px;
+}
+
+.about-us__tittle{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #092334;
+    font-weight: 500;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.about-us__description{
+    font-size: 18px;
+    color: #092334;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding: 0 10px 300px 10px;
+}
+
+.the-team{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    color: #092334;
+}
+
+.about-us__button{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+.about-us__button a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #afbec5;
+    background-color: #1f343f;
+    margin-right: 40px;
+    margin-bottom: 80px; 
+    margin-top: 20px;
+    padding: 4px 15px ;
+    transition: 0.5s;
+    display: none;
+}
+
+.team-slider{
+    position: absolute;
+    bottom: -525px;
+}
+
+.carousel-item p{
+    padding: 20px 20px 0 10px ;
+    font-size: 16px;
+    line-height: 25px;
+    color: #092334;
+}
+
+.carousel-item span{
+    font-size: 18px;
+    letter-spacing: 2.5px;
+}
+
+
+.carousel-item{
+    transition: transform 4s ease-in-out ;
+}
+
+.team-slider1 .carousel-item>div>div, .team-slider2 .carousel-item>div{
+    height: 800px;
+}
+
+.team-slider1 .carousel-item>div>div>div, .team-slider2 .carousel-item>div>div{
+    height: 450px;
+    margin: 10px;}
+.team-slider1 .carousel-item>div>div>div>img, .team-slider2 .carousel-item>div>div>img{
+    height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+
+.team-slider2{display: none;}
+
+
+
+
+
+
+
+
+
+.services{
+    background-color: #243944;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.services>p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 100px ;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services-parent{
+    width: 80%;
+    margin: auto;
+}
+
+.service-tittles{
+    margin-bottom: 150px;
+}
+
+.service-tittles img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.services-options{
+    background-color: white;
+    box-shadow: 1px 1px 2px lightgrey;
+    height: 260px;
+    width: 60%;
+    position: absolute;
+    bottom: -100px;
+    left: 20%;
+}
+
+.services-options p{
+    text-align: center;
+    font-size: 18px;
+    color: #33434a;
+    font-weight: 600;
+    letter-spacing: 2.5;
+    padding: 30px 0 10px 0;
+}
+
+.services-options ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+
+.services-options a{
+    text-decoration: none;
+    display: block;
+    color: #243944;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.services-options a:hover{
+    background-color: #243944;
+    color: white;
+}
+.services-options a.services-active{
+    background-color: #243944;
+    color: white;
+}
+
+.description2{
+    display: none;
+}
+
+.service-description>div{
+     width: 80%;
+     margin: auto;
+}
+.service-description p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 300;   
+}
+
+.service-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.service-button>button{
+    background-color: #afbec5;
+    color:#243944;
+    font-size: 18px;
+    margin: 50px 20px 0px 0;
+    border-color: unset;
+    transition: 0.5s;
+}
+.service-button>button:hover{
+    color: #afbec5;
+    background-color:#1f343f;
+    border-color: unset;
+}
+
+.btn-primary{
+    background-color:#afbec5;
+    border-color: #9eb6c2;
+    color: black;
+}
+.btn-primary:hover{
+    color: white;
+    background-color:#1f343f;
+    border-color: #9eb6c2;
+}
+
+.btn-primary:focus{
+    color: white;
+    background-color:#1f343f;
+    border-color: unset;
+}
+
+
+
+
+
+
+
+.bionic-arm{
+    padding-top: 90px;
+}
+
+.bionic-arm__tittle{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #092334;
+    font-weight: 500;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+.bionic-arm__description{
+    font-size: 18px;
+    color: #092334;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding: 0 10px 300px 10px;
+}
+
+
+.disney-cover{
+    background-color: #c5d2d8; 
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.disney-cover>div{
+    width: 65%;
+    position: absolute;
+    top: -185px;
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.image
+{
+    border: solid 5px rgba(145, 163, 172, 0.1);
+    height: 378px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img1{
+    position: absolute;
+    transition: .3s all ;
+    top: 0;
+    perspective: 1000px;
+    right: 0;
+    width: 100%;
+    height: 222px;
+    background-size: 100% 370px;
+    overflow: hidden;
+}
+
+.img2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    transition: .5s all ;
+    height: 148px;
+    background-size: 100% 370px;
+    background-position: bottom center;
+
+}
+
+.image:hover .img2{
+    transform: translate(0px,290px) rotate(80deg);
+}
+
+.box{
+    position: absolute;
+    right: 0;
+    transform: rotate(20deg);
+    transition: .3s all ;
+    opacity: 0;
+    width: 100%;
+    overflow: hidden;
+    top: 215px;
+    padding: 12px;
+    transform-origin: bottom left;
+    text-align: center;
+    font-size: 18px;
+    color: #092334;
+}
+
+.image:hover .box{
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    transition: .3s .2s all ;
+} 
+
+.image:hover .img1{
+    opacity: .6;
+    transform: translate(10px,-50px) rotate(7deg) scale(1.3);
+}
+
+
+
+
+.disney-cover p{
+    font-size: 18px;
+    color: #092334;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding: 320px 10px 100px 10px;
+}
+
+
+.disney-cover a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #afbec5;
+    background-color:#1f343f;
+    display: inline-block;
+    margin-top: 80px;
+    transition: 0.5s;
+}
+
+.disney-cover a:hover{
+    color: #092334;
+    background-color: #afbec5;
+}
+
+
+
+
+
+.super-bionic{
+    background-image: url("images/hand.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px; 
+    position: relative;
+}
+
+.super-bionic>div, .get-arm>div{
+    background-color: rgba(5, 19, 27, 0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.super-bionic__tittle{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 500;
+    padding-bottom:50px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.super-bionic__description{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2.5px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.super-bionic a, .get-arm a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #092334;
+    background-color: #afbec5;
+    display: inline-block;
+    margin-top: 80px;
+    transition: 0.5s;
+}
+
+.super-bionic a:hover, .get-arm a:hover{
+    color: #afbec5;
+    background-color:#1f343f;
+}
+
+
+
+
+
+footer>div{
+    background-color: #15232b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 80px;
+}
+
+footer>div>div>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Icons{
+    font-size: 40px;
+    color: #afbec5;
+    margin: 100px 30px 50px 0;
+}
+
+.Icons:hover{
+    color: white;
+}
+
+footer>div>div>p{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer>div>div>p>span{
+    color: #afbec5;
+}
+
+footer>div>div>p>span:hover{
+    color: white;
+}
+
+
+
+
+
+/* -------------------------------  ABOUT ARM PAGE ------------------------------ */
+
+
+.arm-cover{
+    height: 940px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.arm-cover img{
+    width: 100%;
+    height: 940px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.feature1{
+    padding: 100px 0;
+    background-color: #c5d2d8;
+}
+.feature2{
+    padding: 100px 0;
+}
+.feature3{
+    padding: 100px 0;
+    background-color: #243944;
+}
+
+
+.feature1>div>div{  
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255,0.3);
+    overflow: hidden;
+}
+
+.feature2>div>div{  
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(197, 210, 216, 0.2);
+    overflow: hidden;
+}
+.feature3>div>div{  
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255,0.9);
+    overflow: hidden;
+}
+.features h2{
+    letter-spacing: 2px;
+    color: #092334;
+    font-weight: 500;
+    padding:50px 0;
+    text-align: center;
+}
+
+.features p{
+    font-size: 18px;
+    color: #092334;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.features img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.features img:hover{
+    transform: scale(1.1);
+}
+
+.features a{
+    text-decoration: none;
+    color: white;
+    background-color: #092334;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 50px 0;
+    transition: 0.5s;
+}
+
+.features a:hover{
+    background-color: #c5d2d8;
+    color: #092334;  
+}
+
+
+.get-arm{
+    background-image: url("images/ob-grab-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px; 
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------  SHOP PAGE ------------------------------ */
+
+
+.shop-body{
+    background-image: url("images/grey.png");
+}
+.shop-parent{
+    width: 80%;
+    margin: auto;
+    background-color: #cdd8dd;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 15px 25px rgba(6, 24, 34, 0.9);
+}
+
+.shop-header{
+    width: 100%;
+    background-color: rgba(21, 35, 43, 0.8);
+    box-shadow: 0.5px 0.5px 3px #dadada;
+    padding: 10px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.shop-bag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shop-header a{
+    text-decoration: none;
+    color: #89a4af;
+    font-size: 22px;
+}
+
+.shop-header span{
+    color: white;
+}
+
+.shop-icon{
+    color: white;
+    font-size: 30px;
+}
+.shop-icon:hover{
+    color: #bec8cc;
+}
+
+.normal-covers>div>div{
+    width: 90% ; 
+    margin-bottom: 150px;
+    padding-right: 30px;    
+}
+
+.normal-covers{
+    width: 80%;
+    margin: auto;
+}
+.normal-covers img{
+    width: 100%;
+    height: 600px;
+    transition: 2s;
+}
+.normal-covers img:hover{
+   opacity: 0.5;
+   transform: rotateY(180deg);
+}
+
+.normal-covers__tittle{
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    color: #092334;
+    font-weight: 500;
+    margin-bottom: 120px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.normal-covers p{
+    font-size: 18px;
+    color: #092334;
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: center;
+}
+.normal-covers a{
+    text-decoration: none;
+    color: #1067a1; 
+    margin-left: 80px;
+}
+.normal-covers a:hover{color: white;}
+
+.disney-covers__tittle{
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    color: #092334;
+    font-weight: 500;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.disney-covers img{
+    width: 100%;
+    height: 300px;
+}
+
+.disney-covers__description{
+    font-size: 18px;
+    color: #092334;
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.disney-covers>div {
+   position: relative;
+   height: 300px;
+   display: inline-block;
+   /* overflow: hidden; */
+}
+
+.disney-covers img{
+display: block;
+}
+
+.disney-covers>div>div{
+    background-color: rgba(21, 35, 43, 0.8);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform-origin: right bottom;
+    transform: rotate3d(0,0,1,90deg); */
+    transition: 1s;
+    opacity: 0;
+}
+
+.disney-covers>div>div>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.disney-covers>div>div:hover{
+     opacity: 1;
+     /* transform-origin: right bottom;
+    transform: rotate3d(0,0,1,0deg); */
+}
+
+
+
+
+
+
+
+
+/* -------------------------------  CONTACT PAGE ------------------------------ */
+
+
+.contact-body{
+    background-image: url("images/ob-grab.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contact-overlay{
+    background-color: rgba(36, 96, 131, 0.2);
+    height: 940px;
+}
+
+.contact-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 40px;
+    background: rgba(6, 24, 34, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(6, 24, 34, 0.9);
+    border-radius: 10px;
+}
+
+.contact-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+}
+
+.input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input:focus ~ label, .input-box input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #377eac;
+    font-size: 14px;
+}
+
+.contact-box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    background: #377eac;
+    cursor: pointer;
+    border-radius: 5px;
+}
